@@ -10,7 +10,7 @@ require_once "pagination.php";
 $total_pages = 9;
 $current_page = 1;
 
-if(isset($_GET["page_no"])) $current_page = $_GET["page_no"];
+if(isset($_GET["page"])) $current_page = $_GET["page"];
 
 show_pagination($total_pages, $current_page);
 ```
