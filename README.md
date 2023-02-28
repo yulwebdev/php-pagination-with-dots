@@ -4,7 +4,7 @@
 1 ... 4 **5** 6 ... 9  
 1 ... 5 **6** 7 8 9   
 ### Example usage:
-```
+```php
 require_once "pagination.php";
 
 $total_pages = 9;
