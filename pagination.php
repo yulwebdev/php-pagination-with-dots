@@ -81,9 +81,9 @@
         if(isset($parsed_url["query"])) parse_str($parsed_url["query"], $query); else $query = array();
     
         if($page_no == 1) {
-          unset($query["page_no"]);
+          unset($query["page"]);
         } else {
-          $query["page_no"] = $page_no;
+          $query["page"] = $page_no;
         }
         
         $query = htmlentities(http_build_query($query));
