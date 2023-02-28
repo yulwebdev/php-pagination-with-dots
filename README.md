@@ -5,6 +5,8 @@
 1 ... 5 **6** 7 8 9   
 ### Example usage:
 ```
+require_once "pagination.php";
+
 $total_pages = 9;
 $current_page = 1;
 
