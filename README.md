@@ -14,3 +14,4 @@ if(isset($_GET["page_no"])) $current_page = $_GET["page_no"];
 
 show_pagination($total_pages, $current_page);
 ```
+Pagination links are managed automatically by adding/updating or removing page numbers from the current URL using the custom *get_url* function.
