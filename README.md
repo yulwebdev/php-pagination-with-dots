@@ -1,8 +1,8 @@
 # PHP pagination with dots.
 ## Bootstrap 5.3
-**1** 2 3 4 5 ... 9  
-1 ... 4 **5** 6 ... 9  
-1 ... 5 **6** 7 8 9   
+![alt text](https://yulweb.dev/img/bootstrap-pagination-with-dots-1.png)  
+![alt text](https://yulweb.dev/img/bootstrap-pagination-with-dots-2.png)  
+![alt text](https://yulweb.dev/img/bootstrap-pagination-with-dots-3.png)
 ### Example usage:
 ```php
 require_once "pagination.php";
