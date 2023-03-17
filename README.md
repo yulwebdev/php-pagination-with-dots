@@ -10,8 +10,9 @@ require_once "pagination.php";
 $total_pages = 9;
 $current_page = 1;
 
-if(isset($_GET["page"])) $current_page = $_GET["page"];
-
+if(isset($_GET["page"])) {
+  $current_page = $_GET["page"];
+}
 show_pagination($total_pages, $current_page);
 ```
 The links are formed considering the query parameters.
